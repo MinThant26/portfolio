@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: beige;
+    background-image: url("background.jpg");
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+/* Main Card Container*/
+.card{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.img{
+    width: 390px;
+    height: 390px;
+}
+
+/* Details container */
+
+.detail{
+    padding: 10px;
+}
+
+/* > About me >  */
+
+.head-text-1,
+.head-text-2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}/* For [about-me] container head text 1 and [skills] container head text 2 */
+.body-text{
+    text-align: justify;
+}
+
+/* > Skills > */
+
+.head-text-2, .results-from{
+    text-align: center;
+}
+
+/* > Skills [bar-container] > */
+
+.title{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.bar{
+    border: 1px solid gray;
+}
+.skills-bar-1,
+.skills-bar-2,
+.skills-bar-3{
+    height: 15px;
+    background-color: #00853D;
+}
+.skills-bar-1{width: 72%;}
+
+/* Link container */
+
+.link{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,auto);
+    background-color: black;
+}
+.link a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
